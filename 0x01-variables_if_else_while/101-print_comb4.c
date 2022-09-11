@@ -23,6 +23,7 @@ if (c != b && b != a && c < b && b < a)
 putchar('0' + c);
 putchar('0' + b);
 putchar('0' + a);
+if (a + b + c != 24)
 {
 putchar(',');
 putchar(' ');
