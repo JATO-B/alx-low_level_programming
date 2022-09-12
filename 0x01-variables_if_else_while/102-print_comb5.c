@@ -9,41 +9,20 @@ int main(void)
 {
 int c;
 int d;
-int a;
-int b = 0;
-while (b < 10)
+for (c = 0; c <= 98; c++)
 {
-a = 0;
-while (a < 10)
+for (d = c + 1; d <= 99; d++)
 {
-if (b <= a)
-{
-putchar('0' + a);
-putchar('0' + b);
+putchar((c / 10) + '0');
+putchar((c % 10) + '0');
 putchar(' ');
-}
-a++;
-}
-b++;
-}
-d = 0;
-while (d < 10)
-{
-c = 0;
-while (c < 10)
-{
-if (d != c && d < c)
-{
-putchar('0' + d);
-putchar('0' + c);
-{
+putchar((d / 10) + '0');
+putchar((d % 10) + '0');
+if (c == 98 && d == 99)
+continue;
 putchar(',');
 putchar(' ');
 }
-}
-c++;
-}
-d++;
 }
 putchar('\n');
 return (0);
