@@ -4,10 +4,10 @@
  *
  * Return: Alwats 0
  */
-int main(void);
+int main(void)
 {
-int r;
-r = print_sign(98);
+	int r;
+ r = print_sign(98);
 _putchar(',');
 _putchar(' ');
 _putchar(r + '0');
