@@ -3,7 +3,7 @@
 /**
 * main - entry point
 *
-* prints_alphabet -  prints the alphabet of in lowercase
+* print_alphabet -  prints the alphabet of in lowercase
 */
 
 void print_alphabet(void)
