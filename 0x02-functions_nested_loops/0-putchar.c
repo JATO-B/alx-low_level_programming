@@ -7,17 +7,13 @@
 
 int main(void)
 {
-putchar('_');
-putchar('p');
-putchar('u');
-putchar('t');
-putchar('c');
-putchar('h');
-putchar('a');
-putchar('r');
-putchar('\n');
+int j = 0;
+char text[] = "_putchar";
+while (text[j] != '\0')
+{
+_putchar(text[j]);
+j++;
+}
+_putchar('\n');
 return (0);
 }
-                                                                                                                                
-
-    
